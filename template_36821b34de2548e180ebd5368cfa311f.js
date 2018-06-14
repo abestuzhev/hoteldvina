@@ -3141,11 +3141,11 @@ $.fn.sliceHeight = function( options ){
 	var el = $(this);
 	_slice(el);
 
-	BX.addCustomEvent('onWindowResize', function(eventdata) {
-		ignoreResize.push(true);
-		_slice(el);
-		ignoreResize.pop();
-	});
+	// BX.addCustomEvent('onWindowResize', function(eventdata) {
+	// 	ignoreResize.push(true);
+	// 	_slice(el);
+	// 	ignoreResize.pop();
+	// });
 }
 
 waitingExists = function(selector, delay, callback){

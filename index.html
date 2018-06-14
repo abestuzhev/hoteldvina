@@ -3,12 +3,13 @@
 <head>
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <title>Номера и тарифы - Гостиница "Двина"</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,400italic,300,300italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Описание сайта"/>
-    <link href="/bitrix/cache/css/s1/aspro-scorp/kernel_main/kernel_main.css" type="text/css" rel="stylesheet"/>
+    <!--<link href="/bitrix/cache/css/s1/aspro-scorp/kernel_main/kernel_main.css" type="text/css" rel="stylesheet"/>-->
     <link href="template_f78eb60abe8175775e506e148dd74058.css" type="text/css" data-template-style="true" rel="stylesheet"/>
     <!--<link href="template_c9e81901e5f82dc736574b77e8a07016" type="text/css" data-template-style="true" rel="stylesheet"/>-->
     <!--<link href="/bitrix/panel/main/popup.min.css" type="text/css" data-template-style="true" rel="stylesheet"/>-->
@@ -23,7 +24,7 @@
     <!--<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadRecaptchafree&render=explicit&hl=ru"></script>-->
     <!--<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?152812738210247"></script>-->
     <!--<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?152812735111189"></script>-->
-    <!--<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-1.8.3.min.js?152812735893637"></script>-->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <!--<script type="text/javascript" src="/bitrix/js/main/ajax.min.js?146591058622194"></script>-->
     <!--<script type="text/javascript" src="/bitrix/js/fileman/sticker.min.js?152812716848559"></script>-->
     <!--<script type="text/javascript" src="/bitrix/js/main/core/core_admin.min.js?152812724621881"></script>-->
@@ -47,7 +48,7 @@
     <link rel="image_src" href="/logo.png"/>
     <meta property="og:url" content="/catalog/"/>
     <meta property="og:description" content="Описание сайта"/>
-    <script type="text/javascript" src="template_36821b34de2548e180ebd5368cfa311f.js"></script>
+    <!--<script type="text/javascript" src="template_36821b34de2548e180ebd5368cfa311f.js"></script>-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
    
@@ -465,8 +466,15 @@
                         line-height: 35px;
                     }
 
+                    .mega-menu {
+                        display: none;
+                    }
                     .mega-menu table td {
-                        visibility: visible;
+                        /*visibility: visible;*/
+                    }
+
+                    .menu-row .col-md-12 {
+                        display: none;
                     }
                 </style>
                 <div class="search hide" id="title-search">
@@ -484,15 +492,7 @@
                         </div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    var jsControl = new JCTitleSearch({
-                        //'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
-                        'AJAX_PAGE': '/catalog/',
-                        'CONTAINER_ID': 'title-search',
-                        'INPUT_ID': 'title-search-input',
-                        'MIN_QUERY_LEN': 2
-                    });
-                </script>
+               
             </div>
         </div>
         <div class="line-row visible-xs"></div>
