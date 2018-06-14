@@ -10,14 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7697489">
+    <splitter split-orientation="horizontal" split-proportion="0.6037967">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
-                  <caret line="484" column="53" selection-start-line="484" selection-start-column="53" selection-end-line="484" selection-end-column="53" />
+                <state relative-caret-position="277">
+                  <caret line="649" column="8" lean-forward="true" selection-start-line="649" selection-start-column="8" selection-end-line="649" selection-end-column="8" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -59,8 +59,8 @@
           <file leaf-file-name="rooms-catalog.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rooms-catalog.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="692">
-                  <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="196" selection-end-column="1" />
+                <state relative-caret-position="294">
+                  <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -87,6 +87,7 @@
       <find>catalog item-views</find>
       <find>BX.addCustomEvent</find>
       <find>mega-menu</find>
+      <find>.room-card__btn</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -100,10 +101,10 @@
       <list>
         <option value="$PROJECT_DIR$/template_c9e81901e5f82dc736574b77e8a07016.css" />
         <option value="$PROJECT_DIR$/template_f78eb60abe8175775e506e148dd74058.css" />
-        <option value="$PROJECT_DIR$/rooms-catalog.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/template_36821b34de2548e180ebd5368cfa311f.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rooms-catalog.css" />
       </list>
     </option>
   </component>
@@ -173,12 +174,12 @@
       <updated>1528877193098</updated>
       <workItem from="1528877194570" duration="1946000" />
       <workItem from="1528888979502" duration="4413000" />
-      <workItem from="1528957655006" duration="4631000" />
+      <workItem from="1528957655006" duration="5370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10990000" />
+    <option name="totallyTimeSpent" value="11729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -302,20 +303,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rooms-catalog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="196" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="484" column="53" selection-start-line="484" selection-start-column="53" selection-end-line="484" selection-end-column="53" />
+        <state relative-caret-position="277">
+          <caret line="649" column="8" lean-forward="true" selection-start-line="649" selection-start-column="8" selection-end-line="649" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rooms-catalog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
         </state>
       </provider>
     </entry>
