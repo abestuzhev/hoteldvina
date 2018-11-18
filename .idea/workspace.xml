@@ -4,10 +4,10 @@
     <list default="true" id="4ef321ee-5b7a-4408-9cf9-99cfa71e9efe" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/addition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slider.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rooms-catalog.css" afterPath="$PROJECT_DIR$/rooms-catalog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider.html" afterPath="$PROJECT_DIR$/slider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template_f78eb60abe8175775e506e148dd74058.css" afterPath="$PROJECT_DIR$/template_f78eb60abe8175775e506e148dd74058.css" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,11 +30,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7638426">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="slider.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="slider.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/slider.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="667" column="97" selection-start-line="667" selection-start-column="97" selection-end-line="667" selection-end-column="97" />
+                <state relative-caret-position="510">
+                  <caret line="66" column="82" selection-start-line="66" selection-start-column="82" selection-end-line="66" selection-end-column="82" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,7 +81,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="688">
@@ -194,6 +194,7 @@
         <option value="$PROJECT_DIR$/rooms-catalog.css" />
         <option value="$PROJECT_DIR$/js/addition.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/slider.html" />
       </list>
     </option>
   </component>
@@ -258,6 +259,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hoteldvina" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoteldvina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoteldvina" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,12 +343,12 @@
       <workItem from="1528888979502" duration="4413000" />
       <workItem from="1528957655006" duration="5978000" />
       <workItem from="1528976592191" duration="527000" />
-      <workItem from="1542476279199" duration="8411000" />
+      <workItem from="1542476279199" duration="8616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21275000" />
+    <option name="totallyTimeSpent" value="21480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -767,10 +782,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="667" column="97" selection-start-line="667" selection-start-column="97" selection-end-line="667" selection-end-column="97" />
+        <state relative-caret-position="510">
+          <caret line="66" column="82" selection-start-line="66" selection-start-column="82" selection-end-line="66" selection-end-column="82" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -813,14 +836,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
