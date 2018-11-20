@@ -7,7 +7,8 @@ $(function(){
         itemWidth: 245,
         itemMargin: 4,
         controlNav: false,
-        directionNav:true
+        directionNav:true,
+        slideshowSpeed: 9000
     });
 
 
