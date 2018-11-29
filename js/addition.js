@@ -3,11 +3,12 @@ $(function(){
 
     $('.flexslider').flexslider({
         animation: "slide",
-        animationLoop: false,
+        animationLoop: true,
         itemWidth: 245,
         itemMargin: 4,
         controlNav: false,
         directionNav:true,
+        // reverse:true,
         slideshowSpeed: 9000
     });
 
