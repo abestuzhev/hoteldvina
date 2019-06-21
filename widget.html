@@ -39,8 +39,35 @@
             $(function(){
 
                 function mobileWidgetInit(){
-                    
+                    Bnovo_Widget.init(function(){
+                        Bnovo_Widget.open('_bn_widget_', {
+                            type: "vertical",
+                            lcode: "1234567890",
+                            lang: "ru",
+                            width: "960",
+                            background: "#2D2D2D",
+                            bg_alpha: "100",
+                            padding: "88",
+                            font_size: "12",
+                            btn_background: "#719E5B",
+                            btn_background_over: "#719E5B",
+                            btn_textcolor: "#FFFFFF",
+                            btn_textover: "#FFFFFF"
+                        });
+                    });
                 }
+
+                if($(window).width() <= 1060){
+                    mobileWidgetInit();
+                }
+
+                // $(window).resize(function(){
+                    
+                //     if($(window).width() <= 1060){
+                //         console.log('resize');
+                //         mobileWidgetInit();
+                //     }
+                // });
                 
             });
         </script>
